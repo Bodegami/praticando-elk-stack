@@ -8,11 +8,18 @@ INSTALAÇÃO
 EXECUÇÃO
 1 - Acessar a pasta do Elasticsearch
 2 - Dentro da pasta bin, exectar o arquivo elasticsearch.bat
+3 - Pronto! Basta acessar o http://localhost:9200
+
+
+OPCIONAL (KOPF)
+
+1 - Copiar a pasta kopf para dentro da pasta do elastic.
+2 - Mover a pasta kopf para dentro de plugins.
+3 - Pronto! Basta acessar o http://localhost:9200/_plugin/kopf/
 
 
 
 
-Copiar kopf para dentro da pasta plugins
 
 BASH
 
@@ -24,16 +31,31 @@ BROWSER
 acessar o endpoint: http://localhost:9200/_plugin/kopf/#!/rest
 
 
-GET catalogo/pessoas
+QUERYS
+
+
+- Busca um dado pelo id
 GET catalogo/pessoas/1
+
+- Busca todos os dados da tabela
 GET catalogo/pessoas/_search
+
+- Busca na tabela por chave e valor (estado:sp)
 GET catalogo/pessoas/_search?q=estado:SP
+
+- Busca em todos os campos pelo valor (futebol)
 GET catalogo/pessoas/_search?q=futebol
+
+
 GET catalogo/pessoas/_search?q=futebol&size=10
 GET catalogo/pessoas/_search?q=futebol&size=1&from=2
 GET catalogo/pessoas/_search?q=_all:futebol
 
+
+- Insere um novo dado na tabela indicando o id
 POST catalogo/pessoas/1
+
+- Insere um novo dado na tabela com id aleatorio
 POST catalogo/pessoas
 
 PUT catalogo/pessoas/1

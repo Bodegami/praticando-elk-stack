@@ -1,32 +1,17 @@
-[2022-03-02 23:11:45,278][INFO ][node                     ] [Hazard] version[2.3.1], pid[14020], build[bd98092/2016-04-04T12:25:05Z]
-[2022-03-02 23:11:45,280][INFO ][node                     ] [Hazard] initializing ...
-[2022-03-02 23:11:45,741][INFO ][plugins                  ] [Hazard] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
-[2022-03-02 23:11:45,761][INFO ][env                      ] [Hazard] using [1] data paths, mounts [[(C:)]], net usable_space [74.4gb], net total_space [446.5gb], spins? [unknown], types [NTFS]
-[2022-03-02 23:11:45,765][INFO ][env                      ] [Hazard] heap size [1gb], compressed ordinary object pointers [true]
-[2022-03-02 23:11:47,330][INFO ][node                     ] [Hazard] initialized
-[2022-03-02 23:11:47,330][INFO ][node                     ] [Hazard] starting ...
-[2022-03-02 23:11:47,670][INFO ][transport                ] [Hazard] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
-[2022-03-02 23:11:47,674][INFO ][discovery                ] [Hazard] elasticsearch/CtWi59sxS86ru-6MebZRpA
-[2022-03-02 23:11:52,248][INFO ][cluster.service          ] [Hazard] new_master {Hazard}{CtWi59sxS86ru-6MebZRpA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
-[2022-03-02 23:11:52,295][INFO ][gateway                  ] [Hazard] recovered [1] indices into cluster_state
-[2022-03-02 23:11:52,531][INFO ][cluster.routing.allocation] [Hazard] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[catalogo][1], [catalogo][1]] ...]).
-[2022-03-02 23:11:52,583][INFO ][http                     ] [Hazard] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
-[2022-03-02 23:11:52,587][INFO ][node                     ] [Hazard] started
-[2022-03-02 23:13:51,402][INFO ][node                     ] [Bentley Wittman] version[2.3.1], pid[4448], build[bd98092/2016-04-04T12:25:05Z]
-[2022-03-02 23:13:51,403][INFO ][node                     ] [Bentley Wittman] initializing ...
-[2022-03-02 23:13:51,680][INFO ][plugins                  ] [Bentley Wittman] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
-[2022-03-02 23:13:51,699][INFO ][env                      ] [Bentley Wittman] using [1] data paths, mounts [[(C:)]], net usable_space [75gb], net total_space [446.5gb], spins? [unknown], types [NTFS]
-[2022-03-02 23:13:51,699][INFO ][env                      ] [Bentley Wittman] heap size [1gb], compressed ordinary object pointers [true]
-[2022-03-02 23:13:52,889][INFO ][node                     ] [Bentley Wittman] initialized
-[2022-03-02 23:13:52,889][INFO ][node                     ] [Bentley Wittman] starting ...
-[2022-03-02 23:13:53,218][INFO ][transport                ] [Bentley Wittman] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
-[2022-03-02 23:13:53,221][INFO ][discovery                ] [Bentley Wittman] elasticsearch/oUPwIVA8So-IFZv4ED9m6Q
-[2022-03-02 23:13:57,777][INFO ][cluster.service          ] [Bentley Wittman] new_master {Bentley Wittman}{oUPwIVA8So-IFZv4ED9m6Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
-[2022-03-02 23:13:57,828][INFO ][gateway                  ] [Bentley Wittman] recovered [1] indices into cluster_state
-[2022-03-02 23:13:58,032][INFO ][cluster.routing.allocation] [Bentley Wittman] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[catalogo][1], [catalogo][1]] ...]).
-[2022-03-02 23:13:58,123][INFO ][http                     ] [Bentley Wittman] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
-[2022-03-02 23:13:58,123][INFO ][node                     ] [Bentley Wittman] started
-[2022-03-02 23:18:44,329][INFO ][node                     ] [Bentley Wittman] stopping ...
-[2022-03-02 23:18:44,385][INFO ][node                     ] [Bentley Wittman] stopped
-[2022-03-02 23:18:44,385][INFO ][node                     ] [Bentley Wittman] closing ...
-[2022-03-02 23:18:44,390][INFO ][node                     ] [Bentley Wittman] closed
+[2022-03-02 23:28:54,920][INFO ][node                     ] [Demolition Man] version[2.3.1], pid[15924], build[bd98092/2016-04-04T12:25:05Z]
+[2022-03-02 23:28:54,921][INFO ][node                     ] [Demolition Man] initializing ...
+[2022-03-02 23:28:55,182][INFO ][plugins                  ] [Demolition Man] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2022-03-02 23:28:55,198][INFO ][env                      ] [Demolition Man] using [1] data paths, mounts [[(C:)]], net usable_space [74.9gb], net total_space [446.5gb], spins? [unknown], types [NTFS]
+[2022-03-02 23:28:55,198][INFO ][env                      ] [Demolition Man] heap size [1gb], compressed ordinary object pointers [true]
+[2022-03-02 23:28:56,368][INFO ][node                     ] [Demolition Man] initialized
+[2022-03-02 23:28:56,369][INFO ][node                     ] [Demolition Man] starting ...
+[2022-03-02 23:28:56,701][INFO ][transport                ] [Demolition Man] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2022-03-02 23:28:56,704][INFO ][discovery                ] [Demolition Man] elasticsearch/Q4dKsRrMSumFe176VqGcgw
+[2022-03-02 23:29:01,268][INFO ][cluster.service          ] [Demolition Man] new_master {Demolition Man}{Q4dKsRrMSumFe176VqGcgw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2022-03-02 23:29:01,301][INFO ][gateway                  ] [Demolition Man] recovered [0] indices into cluster_state
+[2022-03-02 23:29:01,567][INFO ][http                     ] [Demolition Man] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2022-03-02 23:29:01,568][INFO ][node                     ] [Demolition Man] started
+[2022-03-02 23:29:09,709][INFO ][node                     ] [Demolition Man] stopping ...
+[2022-03-02 23:29:09,744][INFO ][node                     ] [Demolition Man] stopped
+[2022-03-02 23:29:09,745][INFO ][node                     ] [Demolition Man] closing ...
+[2022-03-02 23:29:09,751][INFO ][node                     ] [Demolition Man] closed
