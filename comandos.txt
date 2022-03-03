@@ -1,0 +1,42 @@
+INSTALAÇÃO
+
+1 - Extrair o zip para uma pasta com permissão de escrita
+2 - Certificar-se de que está utilizando o Java 11 ou inferior
+
+
+
+EXECUÇÃO
+1 - Acessar a pasta do Elasticsearch
+2 - Dentro da pasta bin, exectar o arquivo elasticsearch.bat
+
+
+
+
+Copiar kopf para dentro da pasta plugins
+
+BASH
+
+curl -XHEAD -v http://localhost:9200/catalogo/pessoas/1
+
+
+BROWSER
+
+acessar o endpoint: http://localhost:9200/_plugin/kopf/#!/rest
+
+
+GET catalogo/pessoas
+GET catalogo/pessoas/1
+GET catalogo/pessoas/_search
+GET catalogo/pessoas/_search?q=estado:SP
+GET catalogo/pessoas/_search?q=futebol
+GET catalogo/pessoas/_search?q=futebol&size=10
+GET catalogo/pessoas/_search?q=futebol&size=1&from=2
+GET catalogo/pessoas/_search?q=_all:futebol
+
+POST catalogo/pessoas/1
+POST catalogo/pessoas
+
+PUT catalogo/pessoas/1
+PUT catalogo/pessoas
+
+DELETE GET catalogo/pessoas/1

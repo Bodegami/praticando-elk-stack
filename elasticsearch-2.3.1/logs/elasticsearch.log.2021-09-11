@@ -1,0 +1,22 @@
+[2021-09-11 09:50:19,052][INFO ][node                     ] [Manslaughter] version[2.3.1], pid[45564], build[bd98092/2016-04-04T12:25:05Z]
+[2021-09-11 09:50:19,054][INFO ][node                     ] [Manslaughter] initializing ...
+[2021-09-11 09:50:19,380][INFO ][plugins                  ] [Manslaughter] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
+[2021-09-11 09:50:19,401][INFO ][env                      ] [Manslaughter] using [1] data paths, mounts [[(C:)]], net usable_space [91.2gb], net total_space [446.5gb], spins? [unknown], types [NTFS]
+[2021-09-11 09:50:19,401][INFO ][env                      ] [Manslaughter] heap size [1gb], compressed ordinary object pointers [true]
+[2021-09-11 09:50:21,079][INFO ][node                     ] [Manslaughter] initialized
+[2021-09-11 09:50:21,080][INFO ][node                     ] [Manslaughter] starting ...
+[2021-09-11 09:50:21,351][INFO ][transport                ] [Manslaughter] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2021-09-11 09:50:21,355][INFO ][discovery                ] [Manslaughter] elasticsearch/SK4s527aRqu3viBwnlqO1Q
+[2021-09-11 09:50:25,921][INFO ][cluster.service          ] [Manslaughter] new_master {Manslaughter}{SK4s527aRqu3viBwnlqO1Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2021-09-11 09:50:25,957][INFO ][gateway                  ] [Manslaughter] recovered [0] indices into cluster_state
+[2021-09-11 09:50:26,135][INFO ][http                     ] [Manslaughter] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-09-11 09:50:26,135][INFO ][node                     ] [Manslaughter] started
+[2021-09-11 09:58:06,468][INFO ][cluster.metadata         ] [Manslaughter] [catalogo] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [pessoas]
+[2021-09-11 09:58:06,633][INFO ][cluster.routing.allocation] [Manslaughter] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[catalogo][4]] ...]).
+[2021-09-11 09:58:06,641][INFO ][cluster.metadata         ] [Manslaughter] [catalogo] update_mapping [pessoas]
+[2021-09-11 09:58:45,544][INFO ][cluster.metadata         ] [Manslaughter] updating number_of_replicas to [0] for indices [catalogo]
+[2021-09-11 20:31:17,829][INFO ][bootstrap                ] running graceful exit on windows
+[2021-09-11 20:31:17,830][INFO ][node                     ] [Manslaughter] stopping ...
+[2021-09-11 20:31:17,860][INFO ][node                     ] [Manslaughter] stopped
+[2021-09-11 20:31:17,860][INFO ][node                     ] [Manslaughter] closing ...
+[2021-09-11 20:31:17,867][INFO ][node                     ] [Manslaughter] closed
