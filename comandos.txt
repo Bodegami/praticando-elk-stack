@@ -45,13 +45,17 @@ GET catalogo/pessoas/_search
 - Busca no type por chave e valor (estado:sp)
 GET catalogo/pessoas/_search?q=estado:SP
 
-- Busca em todos os campos pelo valor (futebol)
+- Busca em todos os documentos pelo valor (futebol)
 GET catalogo/pessoas/_search?q=futebol
+GET catalogo/pessoas/_search?q=_all:futebol
+
+- Busca em todos os documentos pelo valor (futebol) no atributo estado	
+GET catalogo/pessoas/_search?q=estado:SP
 
 
 GET catalogo/pessoas/_search?q=futebol&size=10
 GET catalogo/pessoas/_search?q=futebol&size=1&from=2
-GET catalogo/pessoas/_search?q=_all:futebol
+
 
 
 
