@@ -1,0 +1,34 @@
+[2022-03-02 23:28:54,920][INFO ][node                     ] [Demolition Man] version[2.3.1], pid[15924], build[bd98092/2016-04-04T12:25:05Z]
+[2022-03-02 23:28:54,921][INFO ][node                     ] [Demolition Man] initializing ...
+[2022-03-02 23:28:55,182][INFO ][plugins                  ] [Demolition Man] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2022-03-02 23:28:55,198][INFO ][env                      ] [Demolition Man] using [1] data paths, mounts [[(C:)]], net usable_space [74.9gb], net total_space [446.5gb], spins? [unknown], types [NTFS]
+[2022-03-02 23:28:55,198][INFO ][env                      ] [Demolition Man] heap size [1gb], compressed ordinary object pointers [true]
+[2022-03-02 23:28:56,368][INFO ][node                     ] [Demolition Man] initialized
+[2022-03-02 23:28:56,369][INFO ][node                     ] [Demolition Man] starting ...
+[2022-03-02 23:28:56,701][INFO ][transport                ] [Demolition Man] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2022-03-02 23:28:56,704][INFO ][discovery                ] [Demolition Man] elasticsearch/Q4dKsRrMSumFe176VqGcgw
+[2022-03-02 23:29:01,268][INFO ][cluster.service          ] [Demolition Man] new_master {Demolition Man}{Q4dKsRrMSumFe176VqGcgw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2022-03-02 23:29:01,301][INFO ][gateway                  ] [Demolition Man] recovered [0] indices into cluster_state
+[2022-03-02 23:29:01,567][INFO ][http                     ] [Demolition Man] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2022-03-02 23:29:01,568][INFO ][node                     ] [Demolition Man] started
+[2022-03-02 23:29:09,709][INFO ][node                     ] [Demolition Man] stopping ...
+[2022-03-02 23:29:09,744][INFO ][node                     ] [Demolition Man] stopped
+[2022-03-02 23:29:09,745][INFO ][node                     ] [Demolition Man] closing ...
+[2022-03-02 23:29:09,751][INFO ][node                     ] [Demolition Man] closed
+[2022-03-02 23:29:39,777][INFO ][node                     ] [Vague] version[2.3.1], pid[2004], build[bd98092/2016-04-04T12:25:05Z]
+[2022-03-02 23:29:39,778][INFO ][node                     ] [Vague] initializing ...
+[2022-03-02 23:29:40,060][INFO ][plugins                  ] [Vague] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
+[2022-03-02 23:29:40,077][INFO ][env                      ] [Vague] using [1] data paths, mounts [[(C:)]], net usable_space [74.9gb], net total_space [446.5gb], spins? [unknown], types [NTFS]
+[2022-03-02 23:29:40,077][INFO ][env                      ] [Vague] heap size [1gb], compressed ordinary object pointers [true]
+[2022-03-02 23:29:41,264][INFO ][node                     ] [Vague] initialized
+[2022-03-02 23:29:41,264][INFO ][node                     ] [Vague] starting ...
+[2022-03-02 23:29:41,602][INFO ][transport                ] [Vague] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2022-03-02 23:29:41,604][INFO ][discovery                ] [Vague] elasticsearch/RwfWRiIeSsyk6D8sQOAWTA
+[2022-03-02 23:29:46,159][INFO ][cluster.service          ] [Vague] new_master {Vague}{RwfWRiIeSsyk6D8sQOAWTA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2022-03-02 23:29:46,192][INFO ][gateway                  ] [Vague] recovered [0] indices into cluster_state
+[2022-03-02 23:29:46,458][INFO ][http                     ] [Vague] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2022-03-02 23:29:46,458][INFO ][node                     ] [Vague] started
+[2022-03-02 23:37:06,149][INFO ][cluster.metadata         ] [Vague] [catalogo] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [pessoas]
+[2022-03-02 23:37:06,313][INFO ][cluster.metadata         ] [Vague] [catalogo] update_mapping [pessoas]
+[2022-03-02 23:37:06,320][INFO ][cluster.routing.allocation] [Vague] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[catalogo][4], [catalogo][4]] ...]).
+[2022-03-02 23:38:54,721][INFO ][cluster.metadata         ] [Vague] updating number_of_replicas to [0] for indices [catalogo]

@@ -40,6 +40,16 @@ POST /catalogo/pessoas/4
     "país": "Brasil"
 }
 
+POST /catalogo/pessoas/100
+{
+    "nome": "Thadeu",
+    "interesses": ["futebol", "música", "programação"]
+    "cidade": "Toronto",
+    "formação": "Ciência da Computação",
+    "estado": "ON"
+    "país": "Canada"
+}
+
 
 PUT /catalogo/_settings
 {

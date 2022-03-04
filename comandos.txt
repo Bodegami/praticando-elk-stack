@@ -31,16 +31,18 @@ BROWSER
 acessar o endpoint: http://localhost:9200/_plugin/kopf/#!/rest
 
 
-QUERYS
+QUERYS 
 
+- Retorna 1 se o documento existe ou 0 caso não exista
+curl -XHEAD -v http://localhost:9200/catalogo/pessoas/1
 
-- Busca um dado pelo id
+- Busca um documento pelo id
 GET catalogo/pessoas/1
 
-- Busca todos os dados da tabela
+- Busca todos os documentos da tabela
 GET catalogo/pessoas/_search
 
-- Busca na tabela por chave e valor (estado:sp)
+- Busca no type por chave e valor (estado:sp)
 GET catalogo/pessoas/_search?q=estado:SP
 
 - Busca em todos os campos pelo valor (futebol)
@@ -52,13 +54,34 @@ GET catalogo/pessoas/_search?q=futebol&size=1&from=2
 GET catalogo/pessoas/_search?q=_all:futebol
 
 
-- Insere um novo dado na tabela indicando o id
+
+
+* Sobre o PUT, ele pode ser o update de um documento
+completo ou a criação de um documento com um id especifico.
+Ex: Podemos criar um documento com o metodo Post sem especificar
+um id, porém utilizando o PUT somos obrigados a especificar o id.
+
+- Insere ou atualiza um documento na tabela indicando o id
+PUT catalogo/pessoas/1
+
+- Insere ou atualiza um documento na tabela com id aleatorio
+PUT catalogo/pessoas
+
+
+* Sobre o Post, ele pode criar um novo documento com id 
+auto-incremental ou podemos atualizar parcialmente um documento passando o id.
+Ex: Podemos atualizar apenas um atributo de um documento passando o id
+do documento.
+
+- Insere ou atualiza um documento na tabela indicando o id
 POST catalogo/pessoas/1
 
-- Insere um novo dado na tabela com id aleatorio
+- Insere ou atualiza um documento na tabela com id aleatorio
 POST catalogo/pessoas
 
-PUT catalogo/pessoas/1
-PUT catalogo/pessoas
+- Atualiza apenas um atributo do documento
+POST /catalogo/pessoas/1/_update
+
+
 
 DELETE GET catalogo/pessoas/1
