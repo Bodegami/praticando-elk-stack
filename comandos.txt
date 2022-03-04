@@ -89,3 +89,39 @@ POST /catalogo/pessoas/1/_update
 
 
 DELETE GET catalogo/pessoas/1
+
+
+
+
+ENTENDENDO SOBRE A ESTRUTURA DA RESPOSTA
+
+- took
+É o tempo em milisegundos para retornar a resposta
+
+- timed_out
+Retorna verdade caso tenha tomado timeout ou false caso contrário
+
+- shards
+Numero de "partições" do meu index (instância)
+	total:
+	numero total de shards
+
+	successful:
+	numero total de shards que retornaram o documento com sucesso
+
+	failed:
+	numero total de falhas ao buscar um documento
+
+- hits
+Resultado do objeto retornado
+
+	total:
+	numero total de documentos encontrado
+
+	max_score:
+	relevancia ou valor da semelhança
+
+	hits:
+	body dos documentos encontrados
+
+
