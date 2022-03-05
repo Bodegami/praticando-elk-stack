@@ -88,7 +88,28 @@ POST /catalogo/pessoas/1/_update
 
 
 
-DELETE GET catalogo/pessoas/1
+DELETE catalogo/pessoas/1
+
+GET catalogo/pessoas/1
+
+- Apresenta o "schema" de determinada "tabela"  
+GET /catalogo/_mapping/pessoas
+
+- Utiliza o analyzer padrão para fazer uma busca onde quebra a string em tokens, caixa baixa, removendo virgulas e parenteses
+GET /_analyze?analyzer=standard&text=Eu+nasci+a+10+mil+(sim,+1-+mil)+anos+atrás
+
+- Utiliza o analyzer simples para fazer uma busca onde quebra a string em tokens, transformando tudo em type "word", removendo virgulas, parenteses e numeros.
+GET /_analyze?analyzer=simple&text=Eu+nasci+a+10+mil+(sim,+1-+mil)+anos+atrás
+
+- Utiliza o analyzer whitespace para fazer uma busca onde quebra a string em tokens nos espaços e mantém os dados do texto original.
+GET /_analyze?analyzer=whitespace&text=Eu+nasci+a+10+mil+(sim,+1-+mil)+anos+atrás
+
+- Utiliza o analyzer portuguese para fazer uma busca onde quebra a string em tokens, tira os acentos, tira o s do plural,
+GET /_analyze?analyzer=portuguese&text=Eu+nasci+a+10+mil+(sim,+1-+mil)+anos+atrás
+
+
+
+
 
 
 

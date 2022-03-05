@@ -1,0 +1,33 @@
+[2022-03-05 12:43:18,743][INFO ][node                     ] [Damon Dran] version[2.3.1], pid[19704], build[bd98092/2016-04-04T12:25:05Z]
+[2022-03-05 12:43:18,743][INFO ][node                     ] [Damon Dran] initializing ...
+[2022-03-05 12:43:19,076][INFO ][plugins                  ] [Damon Dran] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
+[2022-03-05 12:43:19,098][INFO ][env                      ] [Damon Dran] using [1] data paths, mounts [[(C:)]], net usable_space [69.5gb], net total_space [446.5gb], spins? [unknown], types [NTFS]
+[2022-03-05 12:43:19,098][INFO ][env                      ] [Damon Dran] heap size [1gb], compressed ordinary object pointers [true]
+[2022-03-05 12:43:20,633][INFO ][node                     ] [Damon Dran] initialized
+[2022-03-05 12:43:20,633][INFO ][node                     ] [Damon Dran] starting ...
+[2022-03-05 12:43:20,981][INFO ][transport                ] [Damon Dran] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2022-03-05 12:43:20,981][INFO ][discovery                ] [Damon Dran] elasticsearch/JM9O-9m7TYuZC-YOSLiSbg
+[2022-03-05 12:43:25,556][INFO ][cluster.service          ] [Damon Dran] new_master {Damon Dran}{JM9O-9m7TYuZC-YOSLiSbg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2022-03-05 12:43:25,607][INFO ][gateway                  ] [Damon Dran] recovered [1] indices into cluster_state
+[2022-03-05 12:43:25,878][INFO ][cluster.routing.allocation] [Damon Dran] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[catalogo][4], [catalogo][4]] ...]).
+[2022-03-05 12:43:25,944][INFO ][http                     ] [Damon Dran] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2022-03-05 12:43:25,944][INFO ][node                     ] [Damon Dran] started
+[2022-03-05 12:48:54,183][WARN ][http.netty               ] [Damon Dran] Caught exception while handling client http traffic, closing connection [id: 0x46f5f66e, /127.0.0.1:57825 => /127.0.0.1:9200]
+java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2022-03-05 12:57:21,847][INFO ][cluster.metadata         ] [Damon Dran] [catalogo] update_mapping [pessoas]
