@@ -50,6 +50,16 @@ POST /catalogo/pessoas/100
     "país": "Canada"
 }
 
+PUT/catalogo/pessoas/1
+{
+    "nome": "João Silva",
+    "interesses": ["futebol", "música", "literatura"],
+    "cidade": "São Paulo",
+    "formação": "Letras",
+    "estado": "SP",
+    "país": "Brasil",
+    "nascimento" : "1984-10-03"
+}
 
 PUT /catalogo/_settings
 {
