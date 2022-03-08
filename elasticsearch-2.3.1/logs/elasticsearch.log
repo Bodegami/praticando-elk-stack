@@ -1,0 +1,4 @@
+[2022-03-08 00:04:52,574][INFO ][cluster.metadata         ] [Sun Girl] [indice_com_sinonimo] creating index, cause [api], templates [], shards [3]/[0], mappings []
+[2022-03-08 00:04:52,622][INFO ][cluster.routing.allocation] [Sun Girl] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[indice_com_sinonimo][2], [indice_com_sinonimo][2], [indice_com_sinonimo][0]] ...]).
+[2022-03-08 00:17:03,517][INFO ][cluster.metadata         ] [Sun Girl] [indice_com_sinonimo_2] creating index, cause [api], templates [], shards [3]/[0], mappings []
+[2022-03-08 00:17:03,567][INFO ][cluster.routing.allocation] [Sun Girl] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[indice_com_sinonimo_2][0], [indice_com_sinonimo_2][0]] ...]).
