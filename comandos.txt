@@ -107,6 +107,9 @@ GET /_analyze?analyzer=whitespace&text=Eu+nasci+a+10+mil+(sim,+1-+mil)+anos+atr�
 - Utiliza o analyzer portuguese para fazer uma busca onde quebra a string em tokens, tira os acentos, tira o s do plural,
 GET /_analyze?analyzer=portuguese&text=Eu+nasci+a+10+mil+(sim,+1-+mil)+anos+atrás
 
+- Por padrão o elastic busca no documento um tempo OU outro. Utilizamos o AND quando queremos que ele busque pelos dois.
+GET /catalogo_v2/pessoas_v2/_search?q=musica+AND+brasil
+
 
 
 

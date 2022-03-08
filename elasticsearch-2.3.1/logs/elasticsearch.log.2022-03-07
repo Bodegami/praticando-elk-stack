@@ -1,0 +1,32 @@
+[2022-03-07 23:53:35,087][INFO ][node                     ] [Sun Girl] version[2.3.1], pid[30612], build[bd98092/2016-04-04T12:25:05Z]
+[2022-03-07 23:53:35,089][INFO ][node                     ] [Sun Girl] initializing ...
+[2022-03-07 23:53:35,454][INFO ][plugins                  ] [Sun Girl] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
+[2022-03-07 23:53:35,477][INFO ][env                      ] [Sun Girl] using [1] data paths, mounts [[(C:)]], net usable_space [69.9gb], net total_space [446.5gb], spins? [unknown], types [NTFS]
+[2022-03-07 23:53:35,478][INFO ][env                      ] [Sun Girl] heap size [1gb], compressed ordinary object pointers [true]
+[2022-03-07 23:53:37,115][INFO ][node                     ] [Sun Girl] initialized
+[2022-03-07 23:53:37,115][INFO ][node                     ] [Sun Girl] starting ...
+[2022-03-07 23:53:37,467][INFO ][transport                ] [Sun Girl] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2022-03-07 23:53:37,470][INFO ][discovery                ] [Sun Girl] elasticsearch/hgUowIjVTDKXShL4Hr8TDg
+[2022-03-07 23:53:42,025][INFO ][cluster.service          ] [Sun Girl] new_master {Sun Girl}{hgUowIjVTDKXShL4Hr8TDg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2022-03-07 23:53:42,101][INFO ][gateway                  ] [Sun Girl] recovered [2] indices into cluster_state
+[2022-03-07 23:53:42,759][INFO ][http                     ] [Sun Girl] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2022-03-07 23:53:42,759][INFO ][node                     ] [Sun Girl] started
+[2022-03-07 23:53:42,823][INFO ][cluster.routing.allocation] [Sun Girl] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[catalogo][3]] ...]).
+[2022-03-07 23:54:30,448][WARN ][http.netty               ] [Sun Girl] Caught exception while handling client http traffic, closing connection [id: 0xd8e8bd4c, /127.0.0.1:60229 => /127.0.0.1:9200]
+java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
